@@ -8,6 +8,10 @@ produces and tells you, per device and per gateway, what is wrong and what to lo
 It is small on purpose (pure Python, standard library only, about 1300 lines plus tests) so you can read all of
 it and change the thresholds to fit your own network.
 
+![Two charts for a simulated fleet of 200 devices. On the left, battery voltage over 7 days with 197 healthy devices in grey and 3 dying cells in red falling toward the 2.5 V cutoff. On the right, a bar chart of the 16 detected faults by check, coloured by severity.](docs/figure.png)
+
+<sub>Simulated fleet, seed 7 (200 devices, 6 gateways, 7 days): battery voltage per device, and findings per check against the 16 injected faults.</sub>
+
 ## What it checks
 
 | Check | How it works | Example evidence |
