@@ -1,0 +1,21 @@
+[project]
+name = "lorawan-fleet-doctor"
+version = "0.1.0"
+description = "Diagnose LoRaWAN fleet health from network-server uplink events"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+mqtt = ["paho-mqtt>=1.6"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+fleetdoctor = "fleetdoctor.cli:main"
+
+[tool.setuptools]
+packages = ["fleetdoctor", "fleetdoctor.ingest", "fleetdoctor.sim", "fleetdoctor.diagnose"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

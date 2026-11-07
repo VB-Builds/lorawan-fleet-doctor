@@ -1,0 +1,29 @@
+{
+  "deduplicationId": "6f1c2a52-9d1c-4b0e-8d0e-3a5f9d6f7a10",
+  "time": "2026-03-02T08:15:30.123456789+00:00",
+  "deviceInfo": {
+    "tenantId": "00000000-0000-4000-8000-000000000001",
+    "tenantName": "demo",
+    "applicationId": "00000000-0000-4000-8000-000000000002",
+    "applicationName": "fleet-demo",
+    "deviceProfileId": "00000000-0000-4000-8000-000000000003",
+    "deviceProfileName": "class-a-eu868",
+    "deviceName": "sensor-0042",
+    "devEui": "D3B00000000000AA"
+  },
+  "devAddr": "0a1b2c3d",
+  "adr": true,
+  "dr": 3,
+  "fCnt": 1234,
+  "fPort": 1,
+  "confirmed": false,
+  "data": "AQIBcgJnAOY=",
+  "rxInfo": [
+    {"gatewayId": "9a7e000000000001", "uplinkId": 11, "rssi": -112, "snr": 4.5, "channel": 0, "rfChain": 0, "context": "AAAAAA==", "crcStatus": "CRC_OK"},
+    {"gatewayId": "9a7e000000000004", "uplinkId": 12, "rssi": -121, "snr": -1.2, "channel": 0, "rfChain": 0, "context": "AAAAAA==", "crcStatus": "CRC_OK"}
+  ],
+  "txInfo": {
+    "frequency": 868100000,
+    "modulation": {"lora": {"bandwidth": 125000, "spreadingFactor": 9, "codeRate": "CR_4_5"}}
+  }
+}

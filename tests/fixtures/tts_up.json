@@ -1,0 +1,26 @@
+{
+  "end_device_ids": {
+    "device_id": "sensor-0042",
+    "application_ids": {"application_id": "fleet-demo"},
+    "dev_eui": "D3B00000000000AA",
+    "join_eui": "0000000000000000",
+    "dev_addr": "0A1B2C3D"
+  },
+  "correlation_ids": ["as:up:01HXXXXXXXXXXXXXXXXXXXXXXX"],
+  "received_at": "2026-03-02T08:15:30.123456789Z",
+  "uplink_message": {
+    "session_key_id": "AAAAAAAAAAAAAAAAAAAAAA==",
+    "f_port": 1,
+    "f_cnt": 1234,
+    "frm_payload": "AQIBcgJnAOY=",
+    "rx_metadata": [
+      {"gateway_ids": {"gateway_id": "eui-9a7e000000000001", "eui": "9A7E000000000001"}, "time": "2026-03-02T08:15:30.100Z", "timestamp": 1234567890, "rssi": -112, "channel_rssi": -112, "snr": 4.5, "channel_index": 0},
+      {"gateway_ids": {"gateway_id": "eui-9a7e000000000004", "eui": "9A7E000000000004"}, "rssi": -121, "channel_rssi": -121, "snr": -1.2, "channel_index": 0}
+    ],
+    "settings": {
+      "data_rate": {"lora": {"bandwidth": 125000, "spreading_factor": 9, "coding_rate": "4/5"}},
+      "frequency": "868100000"
+    },
+    "received_at": "2026-03-02T08:15:30.130456789Z"
+  }
+}
